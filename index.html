@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@forevolve/bootstrap-dark@1.0.0/dist/css/toggle-bootstrap-dark.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@forevolve/bootstrap-dark@1.0.0/dist/css/toggle-bootstrap-print.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <title>Week 12 Assignment</title>
+</head>
+<body class="bootstrap-dark container">
+    <div class="row justify-content-center">
+        <div class="col">
+            <div id="new-note" class="jumbotron">
+                <h1>Notes</h1>
+                <h3>Note title:</h3>
+                <input type="text" id="new-note-title" class="form-control" placeholder="Note title"> <br />
+                <h3>Note text:</h3>
+                <textarea name="Text1" cols="40" rows="5" id="new-note-text" class="form-control" placeholder="Note text"></textarea>
+                <button id="create-new-note" class="btn btn-primary form-control" onclick="DOMManager.createNote()">Create</button>
+            </div>
+        
+            <div id="app">
+        
+            </div>
+        </div>
+    </div>
+</body>
+</html>

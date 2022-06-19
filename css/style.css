@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    margin: 20px;
+}
+
+#new-note {
+    margin: 20px;
+}
+
+button {
+    margin: 6px !important;
+}
